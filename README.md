@@ -19,18 +19,21 @@ Create a fantasy castle-defense game with heroes, Brutes, Archers, autonomous en
 | [🧱 Architecture](docs/ARCHITECTURE.md) | Independent simulation core and future Unity integration |
 | [📚 Interactive reading guide](docs/READING.md) | Clickable chapters of *Game Programming Patterns* |
 | [🤝 Contribution workflow](CONTRIBUTING.md) | Git branches, review, and test checklist |
-| [🐛 Issues and tasks](https://github.com/Tigranasouras/Heroes-and-Castles/issues) | Track exercises and bugs using GitHub checkboxes |
+| [🎯 Exercise 9 — Current task](../../issues/1) | Live checkbox tracker for component refactoring |
+| [🛠️ Engineering setup](../../issues/2) | Create class library, console runner, and tests |
+| [🤖 Enemy AI states](../../issues/3) | Upcoming AI exercise |
+| [🐛 All issues and tasks](../../issues) | Track exercises and bugs using GitHub checkboxes |
 
 ## 📈 Learning and implementation progress
 
 - [x] Explore classes, constructors, inheritance, and polymorphism
 - [x] Introduce a reusable `HealthComponent`
-- [ ] **Exercise 9:** Refactor shared attack logic into a component
+- [ ] **[Exercise 9](../../issues/1):** Refactor shared attack logic into a component
 - [ ] Publish damage/death events and manage subscriptions
-- [ ] Implement Idle, Chase, Attack, and Dead enemy states
+- [ ] **[AI states](../../issues/3):** Implement Idle, Chase, Attack, and Dead enemy states
 - [ ] Create a deterministic multi-enemy simulation loop
 - [ ] Implement castle health, enemy waves, and victory conditions
-- [ ] Add automated tests and continuous integration
+- [ ] **[Engineering setup](../../issues/2):** Add automated tests and continuous integration
 - [ ] Integrate with Unity prefabs, animation, physics, and UI
 - [ ] Profile larger battles and optimize carefully
 

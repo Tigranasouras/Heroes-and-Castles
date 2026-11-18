@@ -2,10 +2,16 @@ namespace Game.Core.Combat;
 
 public class Attack
 {
+    public double Damage {get;}
 
-    public void DoDamage(Monster target, double damage)
+    public Attack(double damage)
     {
-        target.Health.TakeDamage(damage);
+        Damage = damage;
+    }
+
+    public void DoDamage(Monster target)
+    {
+        target.Health.TakeDamage(Damage);
     }
     
 }

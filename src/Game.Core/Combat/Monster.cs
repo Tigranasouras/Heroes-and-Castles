@@ -4,19 +4,19 @@ public class Monster
 {
     public HealthComponent Health {get;}
 
-    public Attack EventAttack;
+    public Attack EventAttack { get;}
     public double Attack;
 
 
 
-    public Monster(double startHealth, double Amount){ //pass into constructor
+    public Monster(double startHealth, Attack attack){ //pass into constructor
         Health = new HealthComponent(startHealth);
-        Attack = Amount;
+        EventAttack = attack;
     } 
 
     public void Attacking(Monster target)
     {
-        EventAttack.DoDamage(target, Attack);
+        EventAttack.DoDamage(target);
     }
     
 }

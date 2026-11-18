@@ -3,7 +3,7 @@ namespace Game.Core.Combat;
 public class Attack
 {
 
-    public void DoDamage(double damage, Monster target)
+    public void DoDamage(Monster target, double damage)
     {
         target.Health.TakeDamage(damage);
     }

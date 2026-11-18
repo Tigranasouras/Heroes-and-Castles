@@ -5,9 +5,6 @@ public class Monster
     public HealthComponent Health {get;}
 
     public Attack EventAttack { get;}
-    public double Attack;
-
-
 
     public Monster(double startHealth, Attack attack){ //pass into constructor
         Health = new HealthComponent(startHealth);

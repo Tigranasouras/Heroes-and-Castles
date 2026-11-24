@@ -42,3 +42,6 @@ Should `Attack` hold a reference to the owner, or receive the target as a method
 - [ ] Test that dead enemies cannot resume movement or attacks.
 
 **Read:** [State](https://gameprogrammingpatterns.com/state.html)
+
+## HAC-001 — Combat domain (continuation of Exercise 9)
+Use existing issue #1 rather than duplicating the exercise. First inspect current code and run baseline build/tests. Add maximum health and enforce health bounds; introduce a small damage-receiving contract where useful. Test configured damage, dead attackers/targets, invalid inputs, health bounds and notification behavior. Explain composition versus inheritance and constructor injection. Do not introduce Steam dependencies or a DI container. Suggested branch: feature/HAC-001-combat-domain. Completion requires review and passing tests, not merely working console output.

@@ -19,3 +19,6 @@ Work in small features. Branch names such as `feature/combat-components` make th
 - [ ] Event listeners unsubscribe when appropriate
 - [ ] Tests check unhappy paths as well as success
 - [ ] No unnecessary Unity coupling in `Game.Core`
+
+## Mentored engineering sessions
+Start with the current issue, branch and latest commit. Mentor explains theory and assigns reading, then provides requirements and hints; learner attempts implementation before requesting a complete solution. Review correctness, readability, dependency direction, edge cases and tests. Run dotnet build and dotnet test against the solution once verified locally. Open a PR with evidence, update issue checkboxes only when verified, and record significant decisions in docs/DECISIONS.md. Never commit credentials. Use small branches and meaningful commits; do not claim tests passed without running them.

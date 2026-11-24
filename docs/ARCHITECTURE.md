@@ -41,3 +41,6 @@ docs/                # Learning plan and architecture
 ```
 
 These are design targets. Existing local `_04_Component` exercises will be migrated and refactored rather than silently replaced.
+
+## Platform and multiplayer boundaries
+Target dependency direction: Unity/Console → Application → Core; platform adapters implement narrow application contracts. The composition root wires local or Steam services. Core must not reference Steam or Unity. Shared gameplay commands represent intentions from AI, strategy, first-person and third-person input; authority validates and applies them. Stable IDs, versioned saves and separate presentation state support future replication. See [decisions](DECISIONS.md) and [Steam readiness](STEAM.md). Game.Core currently targets net10.0; verify Unity compatibility before changing it.

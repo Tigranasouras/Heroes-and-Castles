@@ -11,6 +11,10 @@ public class Attack
 
     public void DoDamage(Monster target)
     {
+        if (!target.Health.IsAlive)
+        {
+            return;
+        }
         target.Health.TakeDamage(Damage);
     }
     

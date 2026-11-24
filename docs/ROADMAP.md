@@ -25,3 +25,6 @@ Build the game **in C# first, in Unity later**. Progress is based on working, te
 ## Breadth curriculum
 
 We'll work in C# language features beyond game patterns: value vs reference types, structs, records, generics, collections, nullability, exceptions, LINQ, complexity, async/await where useful, memory management, profiling, and automated tests.
+
+## Master plan
+The [26-module curriculum](CURRICULUM.md) governs learning progression; the phases above remain feature milestones. HAC-001 maps to Exercise 9. Run a small Unity compatibility and [Steam technical spike](STEAM.md) early, before extensive engine integration. Track [architecture decisions](DECISIONS.md) and revise milestones as evidence changes.

@@ -6,6 +6,19 @@
 
 [![Roadmap](https://img.shields.io/badge/Roadmap-Explore-blue)](docs/ROADMAP.md) [![Architecture](https://img.shields.io/badge/Architecture-View-purple)](docs/ARCHITECTURE.md) [![Current Exercise](https://img.shields.io/badge/Next-Exercise%2009-orange)](docs/EXERCISES.md) [![Patterns](https://img.shields.io/badge/Reading-Game%20Programming%20Patterns-green)](https://gameprogrammingpatterns.com/contents.html)
 
+## Professional learning workspace
+
+| Start here | Purpose |
+|---|---|
+| [Master curriculum](docs/CURRICULUM.md) | 26 modules across four mastery-based semesters |
+| [Steam readiness](docs/STEAM.md) | Early compatibility and multiplayer validation |
+| [Architecture decisions](docs/DECISIONS.md) | Design rationale and trade-offs |
+| [Current ticket: HAC-001 / Exercise 9](docs/EXERCISES.md) | Resume existing combat work |
+
+**Vision:** A Steam-distributed fantasy strategy and castle-defense game with army commands, castle management and switchable first/third-person control. Commercial release is a goal, not a completed milestone.
+
+**Working together:** Read → specify → implement independently → review → test → commit. Use GitHub issues as the durable record of progress. Bring the current ticket and branch to each tutoring session.
+
 ## 🎯 Project vision
 
 Create a fantasy castle-defense game with heroes, Brutes, Archers, autonomous enemy AI, reusable combat components, wave spawning, and a defendable castle. Learn professional C# and software engineering principles as each feature becomes necessary.
@@ -50,7 +63,7 @@ docs/                 # Roadmap, architecture, exercises, reading
   ISSUE_TEMPLATE/     # Reusable GitHub task templates
 ```
 
-**Repository status:** Documentation and planning scaffold. The C# code from local `_04_Component` exercises has not yet been migrated. We will introduce buildable projects and tests as the next development steps.
+**Repository status:** Core project configuration exists; verify the current implementation and tests before marking exercises complete.
 
 ## 💻 Development philosophy
 

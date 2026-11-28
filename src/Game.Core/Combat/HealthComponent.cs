@@ -13,9 +13,9 @@ public class HealthComponent
 
     public bool IsAlive => CurrentHealth > 0 ;
 
-    public void TakeDamage(double amount)
+    public void TakeDamage(double damage)
     {
-        if (amount <= 0)
+        if (damage <= 0)
         {
             return;
         }

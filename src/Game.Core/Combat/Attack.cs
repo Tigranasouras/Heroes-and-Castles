@@ -9,13 +9,13 @@ public class Attack
         Damage = damage;
     }
 
-    public void DoDamage(Monster target)
+    public void DoDamage(IDamageable target)
     {
-        if (!target.Health.IsAlive)
+        if (!target.IsAlive)
         {
             return;
         }
-        target.Health.TakeDamage(Damage);
+        target.TakeDamage(Damage);
     }
     
 }

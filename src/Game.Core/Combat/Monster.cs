@@ -1,19 +1,20 @@
 namespace Game.Core.Combat;
 
-public class Monster
+public class Monster : IDamageable
 {
     public HealthComponent Health {get;}
 
     public Attack EventAttack { get;}
 
     public Monster(double startHealth, Attack attack){ //pass into constructor
-        Health = new HealthComponent(startHealth);
         EventAttack = attack;
     } 
 
-    public void Attacking(Monster target)
+    public void Attacking(IDamageable target, double Damage)
     {
-        EventAttack.DoDamage(target);
+        EventAttack.DoDamage(target.TakeDamage(Damage));
     }
+
+    
     
 }
